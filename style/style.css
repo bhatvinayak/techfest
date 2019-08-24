@@ -134,8 +134,8 @@ button{
 }
 .dd{
   border-radius: 50%;
-  width: 10vw;
-  height: 10vw;
+  width: 25px;
+  height: 25px;
 }
 .info{
   display: block;
