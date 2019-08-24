@@ -112,5 +112,6 @@ button{
   background: rgb(228, 181, 80);
 }
 .dept-list{
-  display: inline;
+  display: inline-flex;
+  margin: auto;
 }
