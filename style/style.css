@@ -25,6 +25,9 @@ body{
   display: none;
   padding: 20px;
 }
+a{
+  color: black
+}
 .menu-icon{
   height: 5vw;
   width: 5vw;
@@ -34,8 +37,8 @@ body{
   width: 5vw;
 }
 .icon{
-  height: 6vw;
-  width: 6vw;
+  height: 7vw;
+  width: 7vw;
   vertical-align: middle;
 }
 a{

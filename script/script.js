@@ -4,7 +4,7 @@ function  menuopen(){
     document.querySelector(".op2").style=" display: grid; width: 100%;text-align: center;margin:20px;";
     document.querySelector(".op3").style=" display: grid;width: 100%;text-align: center;margin: 20px;";
     document.querySelector(".x").style="visibility: visible; display: grid;";
-    document.querySelector(".respmenu").style="background: cyan;";
+    document.querySelector(".respmenu").style="background: rgb(219, 160, 32);";
 }
 function menuclose(){
     document.querySelector(".menu").style="visibility: visible";
