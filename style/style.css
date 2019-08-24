@@ -87,6 +87,7 @@ text-justify: center;
   width: 100px;
   padding:20px;
   margin: 30px;
+  display: inline-block;
 
 }
 #pubg-img{
