@@ -63,9 +63,6 @@ a{
   }
 .content{
       padding: 5px;
-  }
-.content1{
-    padding: 5px;
 }
 .content-head{
   display: inline-flex;
@@ -90,17 +87,17 @@ button{
 .dept{
 text-justify: center;
 }
-.pubg{
+.cont{
   border: 0.5px solid  black;
   border-radius: 10px;
   width: 100px;
   padding:3px;
   margin: 4px;
 }
-#pubg-img{
+#cont-img{
   border-radius: 10px;
 }
-.games{
+.container{
   display: inline-flex;
 }
 .reg{
@@ -123,6 +120,10 @@ button{
   display: inline-flex;
   margin: auto;
 }
-.tech{
-  display: inline-flex;
+.more{
+  float: right;
+  padding: 5px;
+}
+.cont-header{
+  display: block;
 }
