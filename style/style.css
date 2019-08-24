@@ -127,3 +127,8 @@ button{
 .cont-header{
   display: block;
 }
+.main-cont{
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10px;
+}
