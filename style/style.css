@@ -111,3 +111,6 @@ button{
   font-weight: bold;
   background: rgb(228, 181, 80);
 }
+.dept-list{
+  display: inline;
+}
