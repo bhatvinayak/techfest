@@ -1,14 +1,19 @@
-
+body{
+  margin: 0;
+  padding: 0;
+}
 .navbar{
-  background: aqua;
-  height: 70px;
+  background: rgb(219, 160, 32);
+  height: 10vw;
   width: 100vw;
-  position: fixed;
+  position: sticky;
 }
 .logo{
   float: left;
   display: block;
   padding: 20px;
+  font-size: 26px;
+  font-weight: bolder;
 }
 .menu{
   float: right;
@@ -29,30 +34,61 @@
   width: 5vw;
 }
 .icon{
-  height: 5vw;
-  width: 5vw;
+  height: 6vw;
+  width: 6vw;
+  vertical-align: middle;
 }
 a{
   text-decoration: none;
 }
 .op1{
+    font-size: 25px;
     display: none;
+    font-weight: bold;
   }
 .op2{
+    font-size: 25px;
     display: none;
+    font-weight: bold;
   }
 .op3{
+    font-size: 25px;
     display: none;
+    font-weight: bold;
+  }
+.content{
+      padding: 10px;
   }
 footer{
     display: inline-block;
-    height: 20vw;
+    height: 10vw;
     width: 100vw;
-    background: aqua;
+    background: rgb(219, 160, 32);
 }
 .foot{
     padding-top: 20px;
 }
-img{
-  width: 100vw;
+button{
+  width: 15vw;
+  height: 5vw;
+  margin: 20px;
+}
+.dept{
+text-justify: center;
+}
+.pubg{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding:10px;
+  margin: 10px;
+}
+#pubg-img{
+  border-radius: 10px;
+}
+.game{
+  display: inline-flex;
+}
+.reg{
+  width: 10vw;
+  height: 5vw;
 }
