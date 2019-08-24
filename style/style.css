@@ -115,3 +115,6 @@ button{
   display: inline-flex;
   margin: auto;
 }
+.tech{
+  display: inline-flex;
+}
