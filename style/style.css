@@ -102,3 +102,12 @@ text-justify: center;
 h5{
   text-align: center;
 }
+button{
+  width: 20vw;
+  height: 10vw;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  background: rgb(228, 181, 80);
+}
