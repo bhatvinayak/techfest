@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Oswald', sans-serif;
 }
 .navbar{
   background: rgb(219, 160, 32);
@@ -14,6 +15,7 @@ body{
   padding: 20px;
   font-size: 26px;
   font-weight: bolder;
+  font-family: 'Oswald', sans-serif;
 }
 .menu{
   float: right;
@@ -45,17 +47,17 @@ a{
   text-decoration: none;
 }
 .op1{
-    font-size: 25px;
+    font-size: 20px;
     display: none;
     font-weight: bold;
   }
 .op2{
-    font-size: 25px;
+    font-size: 20px;
     display: none;
     font-weight: bold;
   }
 .op3{
-    font-size: 25px;
+    font-size: 20px;
     display: none;
     font-weight: bold;
   }
