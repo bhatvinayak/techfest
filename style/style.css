@@ -20,6 +20,14 @@
   display: none;
   padding: 20px;
 }
+.menu-icon{
+  height: 5vw;
+  width: 5vw;
+}
+.menu-close{
+  height: 5vw;
+  width: 5vw;
+}
 a{
   text-decoration: none;
 }
