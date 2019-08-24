@@ -148,4 +148,6 @@ button{
 .sicon{
   width: 5vw;
   height: 5vw;
+  margin: 10px;
+  margin-bottom: 1px;
 }
