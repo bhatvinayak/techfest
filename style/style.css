@@ -5,7 +5,7 @@ body{
 }
 .navbar{
   background: rgb(219, 160, 32);
-  height: 20vw;
+  height: 15vw;
   width: 100vw;
   position: sticky;
 }
@@ -100,10 +100,6 @@ text-justify: center;
 .container{
   display: inline-flex;
 }
-.reg{
-  width: 10vw;
-  height: 5vw;
-}
 h5{
   text-align: center;
 }
@@ -115,6 +111,7 @@ button{
   border: none;
   font-weight: bold;
   background: rgb(228, 181, 80);
+  margin: 7vw;
 }
 .dept-list{
   display: inline-flex;
@@ -151,9 +148,21 @@ button{
   margin: 10px;
   margin-bottom: 1px;
 }
-@media screen and (min-width:620)
+@media screen and (min-width: 620px)
 {
+  #cont-img{
+    height: 30vw;
+    width: 30vw;
+  }
   .cont{
-    padding: 20vw;
+    border: 0.5px solid  black;
+    border-radius: 10px;
+    width: auto;
+    padding:10px;
+    margin: 10px;
+  }
+  button{
+    height: 5vw;
+    margin-top: 10px
   }
 }
