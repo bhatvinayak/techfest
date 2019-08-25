@@ -16,3 +16,8 @@ function menuclose(){
 function opencse(){
     document.querySelector(".cse").style="display: initial;"
 }
+function register()
+{
+    document.querySelector(".reg-form").style="display: initial;";
+    document.querySelector(".reg").style="display: none";
+}

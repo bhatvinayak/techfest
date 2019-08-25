@@ -17,3 +17,7 @@ h3{
 .cse{
     display: none;
 }
+.reg-form{
+    justify-content: center;
+    display: none;
+}
