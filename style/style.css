@@ -90,10 +90,13 @@ text-justify: center;
 }
 .cont{
   border: 0.5px solid  black;
- 
+  border-radius: 5px;
   width: 100px;
   padding:3px;
   margin: 4px;
+}
+#cont-img{
+  border-radius: 5px;
 }
 .container{
   display: inline-flex;
@@ -104,7 +107,7 @@ h5{
 button{
   width: 20vw;
   height: 10vw;
-
+ border-radius: 5px;
   outline: none;
   border: none;
   font-weight: bold;
@@ -125,7 +128,7 @@ button{
 .main-cont{
   border: 1px solid black;
   margin: 20px;
- 
+  border-radius: 5px;
 }
 .dd{
   border-radius: 50%;
@@ -154,7 +157,7 @@ button{
   margin-top: 20px;
   height: 20vw;
   border: 1px solid black;
- 
+  border-radius: 5px;
 }
 .cont:hover{
   opacity: 0.4;
@@ -167,7 +170,7 @@ button{
   }
   .cont{
     border: 0.5px solid  black;
-   
+    border-radius: 5px;
     width: auto;
     padding:10px;
     margin: 10px;
