@@ -13,3 +13,6 @@ function menuclose(){
     document.querySelector(".op3").style="display: none";
     document.querySelector(".x").style="visibility: hidden";
 }
+function opencse(){
+    document.querySelector(".cse").style="display: initial;"
+}

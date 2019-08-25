@@ -1,0 +1,18 @@
+.event{
+    margin: 5vw;
+}
+.poster{
+    margin-top: 50px;
+    height: 30vw;
+    width: 90vw;
+}
+.event-info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 26px;
+}
+.cse{
+    display: none;
+}
