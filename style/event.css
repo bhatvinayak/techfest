@@ -1,5 +1,6 @@
 .event{
     margin: 5vw;
+    border-bottom: 1px solid black;
 }
 .poster{
     margin-top: 50px;
