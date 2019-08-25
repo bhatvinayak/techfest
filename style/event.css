@@ -18,6 +18,15 @@ h3{
     display: none;
 }
 .reg-form{
-    justify-content: center;
+    width: 64vw;
+    margin-left: 17%;
+    margin-right: 17%; 
     display: none;
+}
+@media screen and (max-width: 420px){
+    .reg-form{
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
