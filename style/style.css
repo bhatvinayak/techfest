@@ -148,6 +148,14 @@ button{
   margin: 10px;
   margin-bottom: 1px;
 }
+.gmap{
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw; 
+  margin-bottom: 20px;
+  height: 20vw;
+  border-radius: 10px;
+}
 @media screen and (min-width: 620px)
 {
   #cont-img{
