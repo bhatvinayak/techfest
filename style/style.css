@@ -93,6 +93,7 @@ text-justify: center;
   width: 100px;
   padding:3px;
   margin: 4px;
+  background: rgba(149, 158, 153, 0.411);
 }
 #cont-img{
   border-radius: 10px;
