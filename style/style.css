@@ -160,6 +160,9 @@ button{
   border: 1px solid black;
   border-radius: 10px;
 }
+.cont:hover{
+  opacity: 0.4;
+}
 @media screen and (min-width: 620px)
 {
   #cont-img{
