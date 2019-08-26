@@ -1,11 +1,13 @@
 .event{
-    margin: 5vw;
+    margin: 10vw;
     border-bottom: 1px solid black;
 }
 .poster{
     margin-top: 50px;
     height: 30vw;
-    width: 90vw;
+    width: 80vw;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 .event-info{
     margin-top: 50px;
