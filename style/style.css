@@ -86,6 +86,7 @@ button{
 }
 .dept{
 text-justify: center;
+margin-left: 10px; 
 }
 .cont{
   border: 0.5px solid  black;
@@ -125,11 +126,12 @@ button{
 }
 .cont-header{
   display: block;
+  margin-left: 10px; 
 }
 .main-cont{
   width: 90vw;
 }
-.poster{
+.poster-main{
   width: 90vw;
   height: 50vw;
   margin: 5vw;
@@ -165,6 +167,10 @@ button{
 }
 .cont:hover{
   opacity: 0.4;
+}
+#cont1{
+  margin-left: 10vw;
+  margin-right: 10vw; 
 }
 @media screen and (min-width: 620px)
 {
