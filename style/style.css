@@ -45,6 +45,7 @@ a{
 }
 a{
   text-decoration: none;
+  animation: none;
 }
 .op1{
     font-size: 20px;
@@ -90,7 +91,6 @@ margin-left: 10px;
   padding:3px;
   margin: 4px;
   background-color: white;
-  
 }
 #cont-img{
   border-radius: 5px;
