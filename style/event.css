@@ -1,15 +1,16 @@
 .event{
-    margin: 10vw;
+    margin: 7.5vw;
     padding-bottom: 10px; 
-    border-bottom: 1px solid black;
+    width: 85vw;
 }
 .poster{
-    margin-top: 50px;
+    margin-top: 5vw;
     height: 30vw;
     width: 80vw;
     border: 1px solid black;
     border-radius: 5px;
 }
+
 .event-info{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -26,10 +27,23 @@ h3{
     margin-right: 17%; 
     display: none;
 }
+.memo1{
+    width: 90vw;
+    margin: 5vw;
+}
 @media screen and (max-width: 420px){
     .reg-form{
         width: 100vw;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+@media screen and (min-width: 420px){
+    .memo{
+        display: inline-flex;
+    }
+    .memo1{
+        width: 40vw;
+        margin: 5vw;
     }
 }

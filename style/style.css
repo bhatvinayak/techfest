@@ -48,17 +48,22 @@ a{
   animation: none;
 }
 .op1{
-    font-size: 20px;
+    font-size: 16px;
     display: none;
     font-weight: bold;
   }
 .op2{
-    font-size: 20px;
+    font-size: 16px;
     display: none;
     font-weight: bold;
   }
 .op3{
-    font-size: 20px;
+    font-size: 16px;
+    display: none;
+    font-weight: bold;
+  }
+  .op4{
+    font-size: 16px;
     display: none;
     font-weight: bold;
   }
