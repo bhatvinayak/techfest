@@ -41,7 +41,6 @@ function openmec(){
     document.querySelector(".mec").style="display: initial;"
 
 }
-
 function register()
 {
     document.querySelector(".reg-form").style="display: initial;";
