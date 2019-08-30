@@ -109,7 +109,10 @@ button{
   border: none;
   font-weight: bold;
   background: rgb(228, 181, 80);
-  margin: 6vw;
+  margin-left: 15vw; 
+  margin-right: 15vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw; 
 }
 .dept-list{
   display: inline-flex;
@@ -184,7 +187,8 @@ button{
   }
   button{
     height: 5vw;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .sicon{
     width: 3vw;
