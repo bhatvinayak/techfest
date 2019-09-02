@@ -88,6 +88,8 @@ footer{
 .dept{
 text-justify: center;
 margin-left: 10px; 
+border-bottom: 1px solid black;
+
 }
 .cont{
   border: 0.5px solid  black;
@@ -109,8 +111,8 @@ button{
   border: none;
   font-weight: bold;
   background: rgb(228, 181, 80);
-  margin-left: 15vw; 
-  margin-right: 15vw;
+  margin-left: 14vw; 
+  margin-right: 14vw;
   margin-top: 5vw;
   margin-bottom: 5vw; 
 }
@@ -194,4 +196,9 @@ button{
     width: 3vw;
     height: 3vw;;
   }
+}
+
+.app{
+  width:30vw;
+  height: 15vw;
 }
