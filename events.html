@@ -1,134 +1,229 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Department Event List</title>
-        <link rel="shortcut icon" href="./images/icon.png">
-        <link href="./style/style.css" rel="stylesheet">
-        <link href="./style/event.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    </head>
-    <body>
-        <div class="navbar">
-            <a class="logo" href="index.html"><img class="icon" src="./images/logo.png"> Techvidya-2k19</a>
-            <a class="x" onclick="menuclose()"><img class="menu-close" src="https://img.icons8.com/ios-filled/50/000000/x.png"></a>
-            <div class="respmenu">
-              <a class="op1" href="index.html">Home</a>
-              <a class="op2" href="events.html">Events</a>
-              <a class="op4" href="explore.html">Explore</a>
-              <a class="op3" href="contactus.html">Contact us</a>
-            </div>
-              <a class="menu"onclick="menuopen()"><img class="menu-icon" src="https://img.icons8.com/ios-filled/50/000000/menu.png"></a>
+
+<head>
+    <title>Department Event List</title>
+    <link rel="shortcut icon" href="./images/icon.png">
+    <link href="./style/style.css" rel="stylesheet">
+    <link href="./style/event.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="logo" href="index.html"><img class="icon" src="./images/logo.png"> Techvidya-2k19</a>
+        <a class="x" onclick="menuclose()"><img class="menu-close"
+                src="https://img.icons8.com/ios-filled/50/000000/x.png"></a>
+        <div class="respmenu">
+            <a class="op1" href="index.html">Home</a>
+            <a class="op2" href="events.html">Events</a>
+            <a class="op4" href="explore.html">Explore</a>
+            <a class="op3" href="contactus.html">Contact us</a>
         </div>
-        <div class="dept">
-               <center> <h3>Department Event List</h3></center>
-                <div class="dept-list">
-                    <button onclick="opencse()">CSE/ISE</button>
-                    <button onclick="openece()">ECE/EEE</button>
-                </div>
-                <div class="dept-list">
-                    <button onclick="openciv()">CIVIL</button>
-                    <button onclick="openmec()">MECH</button>
-                </div>
+        <a class="menu" onclick="menuopen()"><img class="menu-icon"
+                src="https://img.icons8.com/ios-filled/50/000000/menu.png"></a>
+    </div>
+    <div class="dept">
+        <center>
+            <h3>Department Event List</h3>
+        </center>
+        <div class="dept-list">
+            <button onclick="opencse()">CSE/ISE</button>
+            <button onclick="openece()">ECE/EEE</button>
         </div>
-        <div class="cse">
-            <div class="event">
-                <a href="searchit.html"><center><h1>Search-it!</h1></center>
-                <center><img class="poster" src="./images/searchit.jpg"></center></a>
-            </div>
-            <div class="event">
-                    <a href="codedebug.html"><center><h1>Code & debug</h1></center>
-                    <center><img class="poster" src="./images/code.jpg"></center></a>
-            </div>
-            <div class="event">
-                    <a href="crypto.html"><center><h1>Crypto Hunt</h1></center>
-                    <center><img class="poster" src="./images/crypto.png"></center></a>
-            </div>
-            <div class="event">
-                <a href="tpp.html"><center><h1>Technical Paper Presentation</h1></center>
-                <center><img class="poster" src="./images/tpp.jpg"></center></a>
-            </div>
-            <div class="event">
-                <a href="techquiz.html"><center><h1>Technical Quiz</h1></center>
-                <center><img class="poster" src="./images/tq.jpg"></center></a>
-            </div>
-            <div class="event">
-                <a href="pubg.html"><center><h1>PUBG</h1></center>
-                <center><img class="poster" src="./images/pubg.jpg"></center></a>
-            </div>
-            <div class="event">
-                <a href="cs.html"><center><h1>Counter Strike</h1></center>
-                <center><img class="poster" src="./images/CS.jpg"></center></a>
-            </div>
-            <div class="event">
-                <a href="nfs.html"><center><h1>NFS</h1></center>
-                <center><img class="poster" src="./images/nfs.jpg"></center></a>
-            </div>
-            <div class="event">
-                <a href="tdc.html"><center><h1>Technical Dumb Charades</h1></center>
-                <center><img class="poster" src="./images/tdc.jpg"></center></a>
-            </div>
-            <div class="event">
-                <a href="pc.html"><center><h1>Puzzles and Crosswords</h1></center>
-                <center><img class="poster" src="./images/pc.png"></center></a>
-            </div>
-            </div>
-            <div class="ece">
-                <div class="event">
-                    <a href="robo.html"><center><h1>Robotics</h1></center>
-                    <center><img class="poster" src="./images/robo.jpg"></center></a>
-                </div>
-                <div class="event">
-                    <a href="techtalk.html"><center><h1>Tech Talk</h1></center>
-                    <center><img class="poster" src="./images/techtalk.jpg"></center></a>
-                </div>
-                <div class="event">
-                    <a href="playtronics.html"><center><h1>Playtronics/Playtricals</h1></center>
-                    <center><img class="poster" src="./images/playtronic.png"></center></a>
-                </div>
-            </div>
-            <div class="civ">
-                <div class="event">
-                    <a href="thermocolmodel.html"><center><h1>Thermocol Modelling</h1></center>
-                    <center><img class="poster" src="./images/tm.jpg"></center></a>
-                </div>
-                <div class="event">
-                    <a href="fastsurvey.html"><center><h1>Fast Surveying</h1></center>
-                    <center><img class="poster" src="./images/fs.jpg"></center></a>
-                </div>
-                <div class="event">
-                    <a href="treasurehunt.html"><center><h1>Treasure Hunt</h1></center>
-                    <center><img class="poster" src="./images/th.jpg"></center></a>
-                </div>
-            </div>
-            <div class="mec">
-                <div class="event">
-                    <a href="mechspeech.html"><center><h1>Mech Speech</h1></center>
-                    <center><img class="poster" src="./images/ms.jpg"></center></a>
-                </div>
-                <div class="event">
-                    <a href="technature.html"><center><h1>Tech nature</h1></center>
-                    <center><img class="poster" src="./images/tn.jpg"></center></a>
-                </div>
-                <div class="event">
-                    <a href="fastlathe.html"><center><h1>Fast hands on Lathe</h1></center>
-                    <center><img class="poster" src="./images/fl.jpg"></center></a>
-                </div>
-                <div class="event">
-                    <a href="caed.html"><center><h1>Tech CAED</h1></center>
-                    <center><img class="poster" src="./images/CAED.jpg"></center></a>
-                </div>
-            </div>
-        <footer>
-                <center><div class="foot">&copy;<a href="https://saividya.ac.in">Sai Vidya Institute of Technology</a></div><p>Rajanukunte,Doddaballapur Road,Bangalore-560064</p></center>
+        <div class="dept-list">
+            <button onclick="openciv()">CIVIL</button>
+            <button onclick="openmec()">MECH</button>
+        </div>
+    </div>
+    <div class="cse">
+        <div class="event">
+            <a href="searchit.html">
                 <center>
-                    <a href="https://www.facebook.com/SaiVidyaInstituteOfTechnology"><img class="sicon" src="https://img.icons8.com/metro/50/000000/facebook-new.png"></a>
-                    <a href="https://www.instagram.com/sai_vidya_institute_of_tech/"><img class="sicon" src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png"></a>
-                    <a href="https://twitter.com/SaividyaIT"><img class="sicon" src="https://img.icons8.com/android/50/000000/twitter.png"></a>
-                    <a href="https://www.linkedin.com/school/sai-vidya-institute-of-technology/about/"><img class="sicon" src="https://img.icons8.com/android/50/000000/linkedin.png"></a>
-                    <a href="https://www.youtube.com/channel/UCWL2olPwqAo6QUzcpiKwdZA"><img class="sicon" src="https://img.icons8.com/ios-glyphs/50/000000/youtube.png"></a>
+                    <h1>Search-it!</h1>
                 </center>
-        </footer>
-        <script src="./script/script.js"></script>
-    </body>
+                <center><img class="poster" src="./images/searchit.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="codedebug.html">
+                <center>
+                    <h1>Code & debug</h1>
+                </center>
+                <center><img class="poster" src="./images/code.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="crypto.html">
+                <center>
+                    <h1>Crypto Hunt</h1>
+                </center>
+                <center><img class="poster" src="./images/crypto.png"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="tpp.html">
+                <center>
+                    <h1>Technical Paper Presentation</h1>
+                </center>
+                <center><img class="poster" src="./images/tpp.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="techquiz.html">
+                <center>
+                    <h1>Technical Quiz</h1>
+                </center>
+                <center><img class="poster" src="./images/tq.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="pubg.html">
+                <center>
+                    <h1>PUBG</h1>
+                </center>
+                <center><img class="poster" src="./images/pubg.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="cs.html">
+                <center>
+                    <h1>Counter Strike</h1>
+                </center>
+                <center><img class="poster" src="./images/CS.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="nfs.html">
+                <center>
+                    <h1>NFS</h1>
+                </center>
+                <center><img class="poster" src="./images/nfs.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="tdc.html">
+                <center>
+                    <h1>Technical Dumb Charades</h1>
+                </center>
+                <center><img class="poster" src="./images/tdc.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="pc.html">
+                <center>
+                    <h1>Puzzles and Crosswords</h1>
+                </center>
+                <center><img class="poster" src="./images/pc.png"></center>
+            </a>
+        </div>
+    </div>
+    <div class="ece">
+        <div class="event">
+            <a href="robo.html">
+                <center>
+                    <h1>Robotics</h1>
+                </center>
+                <center><img class="poster" src="./images/robo.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="techtalk.html">
+                <center>
+                    <h1>Tech Talk</h1>
+                </center>
+                <center><img class="poster" src="./images/techtalk.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="playtronics.html">
+                <center>
+                    <h1>Playtronics/Playtricals</h1>
+                </center>
+                <center><img class="poster" src="./images/playtronic.png"></center>
+            </a>
+        </div>
+    </div>
+    <div class="civ">
+        <div class="event">
+            <a href="thermocolmodel.html">
+                <center>
+                    <h1>Thermocol Modelling</h1>
+                </center>
+                <center><img class="poster" src="./images/tm.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="fastsurvey.html">
+                <center>
+                    <h1>Fast Surveying</h1>
+                </center>
+                <center><img class="poster" src="./images/fs.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="treasurehunt.html">
+                <center>
+                    <h1>Treasure Hunt</h1>
+                </center>
+                <center><img class="poster" src="./images/th.jpg"></center>
+            </a>
+        </div>
+    </div>
+    <div class="mec">
+        <div class="event">
+            <a href="mechspeech.html">
+                <center>
+                    <h1>Mech Speech</h1>
+                </center>
+                <center><img class="poster" src="./images/ms.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="technature.html">
+                <center>
+                    <h1>Tech nature</h1>
+                </center>
+                <center><img class="poster" src="./images/tn.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="fastlathe.html">
+                <center>
+                    <h1>Fast hands on Lathe</h1>
+                </center>
+                <center><img class="poster" src="./images/fl.jpg"></center>
+            </a>
+        </div>
+        <div class="event">
+            <a href="caed.html">
+                <center>
+                    <h1>Tech CAED</h1>
+                </center>
+                <center><img class="poster" src="./images/CAED.jpg"></center>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <center>
+            <div class="foot">&copy;<a href="https://saividya.ac.in">Sai Vidya Institute of Technology</a></div>
+            <p>Rajanukunte,Doddaballapur Road,Bangalore-560064</p>
+        </center>
+        <center>
+            <a href="https://www.facebook.com/SaiVidyaInstituteOfTechnology"><img class="sicon"
+                    src="https://img.icons8.com/metro/50/000000/facebook-new.png"></a>
+            <a href="https://www.instagram.com/sai_vidya_institute_of_tech/"><img class="sicon"
+                    src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png"></a>
+            <a href="https://twitter.com/SaividyaIT"><img class="sicon"
+                    src="https://img.icons8.com/android/50/000000/twitter.png"></a>
+            <a href="https://www.linkedin.com/school/sai-vidya-institute-of-technology/about/"><img class="sicon"
+                    src="https://img.icons8.com/android/50/000000/linkedin.png"></a>
+            <a href="https://www.youtube.com/channel/UCWL2olPwqAo6QUzcpiKwdZA"><img class="sicon"
+                    src="https://img.icons8.com/ios-glyphs/50/000000/youtube.png"></a>
+        </center>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+
 </html>

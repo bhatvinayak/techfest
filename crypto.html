@@ -1,66 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Crypto Hunt</title>
-        <link rel="shortcut icon" href="./images/icon.png">
-        <link href="./style/style.css" rel="stylesheet">
-        <link href="./style/event.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    </head>
-    <body>
-        <div class="navbar">
-            <a class="logo" href="index.html"><img class="icon" src="./images/logo.png"> Techvidya-2k19</a>
-            <a class="x" onclick="menuclose()"><img class="menu-close" src="https://img.icons8.com/ios-filled/50/000000/x.png"></a>
-            <div class="respmenu">
-              <a class="op1" href="index.html">Home</a>
-              <a class="op2" href="events.html">Events</a>
-              <a class="op4" href="explore.html">Explore</a>
-              <a class="op3" href="contactus.html">Contact us</a>
-            </div>
-              <a class="menu"onclick="menuopen()"><img class="menu-icon" src="https://img.icons8.com/ios-filled/50/000000/menu.png"></a>
-        </div>
-        <div class="event">
-                <center><h1>CRYPTO-HUNT</h1></center>
-                <center><img class="poster" src="./images/crypto.png"></center>
-                <div class="event-info"><b>Registration Fee: 100/-</b><br><br>
 
-                <b>Rules and Regulations:</b><br><br>
-                    
-                    Short description - Crypto-hunt is an event inspired by the traditional Treasure Hunt
-                    but involving concepts of technology. The clues are hidden offline in the SaiVidya
-                    campus as well as online on the internet. Participants are supposed to follow the clues
-                    and reach the treasure.<br><br>
-                    
-                    Teams of 3 participants each.<br><br>
-                    
-                    Duration is 90 minutes.<br><br>
-                    
-                    The first clue will be given, students must follow the clues and reach the treasure
-                    which will be a part of the clues.<br><br>
-                    
-                    Use of mobile phones and computers is allowed. It is preferred that the participants
-                    have a smartphone with internet access and camera functionality.<br><br>
-                    
-                    The coordinators can be contacted in case of any issues.<br><br>
-                    
-                    The coordinators will not help regarding clues.<br><br>
-                    
-                    Tampering the physical clues hidden offline will lead to immediate disqualification
-                    from the event.</div>
-                <center><button class="reg" onclick="register()">Register</button></center>
+<head>
+    <title>Crypto Hunt</title>
+    <link rel="shortcut icon" href="./images/icon.png">
+    <link href="./style/style.css" rel="stylesheet">
+    <link href="./style/event.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="logo" href="index.html"><img class="icon" src="./images/logo.png"> Techvidya-2k19</a>
+        <a class="x" onclick="menuclose()"><img class="menu-close"
+                src="https://img.icons8.com/ios-filled/50/000000/x.png"></a>
+        <div class="respmenu">
+            <a class="op1" href="index.html">Home</a>
+            <a class="op2" href="events.html">Events</a>
+            <a class="op4" href="explore.html">Explore</a>
+            <a class="op3" href="contactus.html">Contact us</a>
         </div>
-        <iframe class="reg-form" src="https://docs.google.com/forms/d/e/1FAIpQLSfuxMv1iaLqyOAAFJRdWYQ1Rl9SgpMEtFqpcyhfMH7va98eUQ/viewform?embedded=true" width="640" height="1256" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
-        <footer>       
-               <center><div class="foot">&copy;<a href="https://saividya.ac.in">Sai Vidya Institute of Technology</a></div><p>Rajanukunte,Doddaballapur Road,Bangalore-560064</p></center>
-                <center>
-                    <a href="https://www.facebook.com/SaiVidyaInstituteOfTechnology"><img class="sicon" src="https://img.icons8.com/metro/50/000000/facebook-new.png"></a>
-                    <a href="https://www.instagram.com/sai_vidya_institute_of_tech/"><img class="sicon" src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png"></a>
-                    <a href="https://twitter.com/SaividyaIT"><img class="sicon" src="https://img.icons8.com/android/50/000000/twitter.png"></a>
-                    <a href="https://www.linkedin.com/school/sai-vidya-institute-of-technology/about/"><img class="sicon" src="https://img.icons8.com/android/50/000000/linkedin.png"></a>
-                    <a href="https://www.youtube.com/channel/UCWL2olPwqAo6QUzcpiKwdZA"><img class="sicon" src="https://img.icons8.com/ios-glyphs/50/000000/youtube.png"></a>
-                </center>
-        </footer>
-        <script src="./script/script.js"></script>
-    </body>
+        <a class="menu" onclick="menuopen()"><img class="menu-icon"
+                src="https://img.icons8.com/ios-filled/50/000000/menu.png"></a>
+    </div>
+    <div class="event">
+        <center>
+            <h1>CRYPTO-HUNT</h1>
+        </center>
+        <center><img class="poster" src="./images/crypto.png"></center>
+        <div class="event-info"><b>Registration Fee: 100/-</b><br><br>
+
+            <b>Rules and Regulations:</b><br><br>
+
+            Short description - Crypto-hunt is an event inspired by the traditional Treasure Hunt
+            but involving concepts of technology. The clues are hidden offline in the SaiVidya
+            campus as well as online on the internet. Participants are supposed to follow the clues
+            and reach the treasure.<br><br>
+
+            Teams of 3 participants each.<br><br>
+
+            Duration is 90 minutes.<br><br>
+
+            The first clue will be given, students must follow the clues and reach the treasure
+            which will be a part of the clues.<br><br>
+
+            Use of mobile phones and computers is allowed. It is preferred that the participants
+            have a smartphone with internet access and camera functionality.<br><br>
+
+            The coordinators can be contacted in case of any issues.<br><br>
+
+            The coordinators will not help regarding clues.<br><br>
+
+            Tampering the physical clues hidden offline will lead to immediate disqualification
+            from the event.</div>
+        <center><button class="reg" onclick="register()">Register</button></center>
+    </div>
+    <iframe class="reg-form"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfuxMv1iaLqyOAAFJRdWYQ1Rl9SgpMEtFqpcyhfMH7va98eUQ/viewform?embedded=true"
+        width="640" height="1256" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <footer>
+        <center>
+            <div class="foot">&copy;<a href="https://saividya.ac.in">Sai Vidya Institute of Technology</a></div>
+            <p>Rajanukunte,Doddaballapur Road,Bangalore-560064</p>
+        </center>
+        <center>
+            <a href="https://www.facebook.com/SaiVidyaInstituteOfTechnology"><img class="sicon"
+                    src="https://img.icons8.com/metro/50/000000/facebook-new.png"></a>
+            <a href="https://www.instagram.com/sai_vidya_institute_of_tech/"><img class="sicon"
+                    src="https://img.icons8.com/ios-glyphs/50/000000/instagram-new.png"></a>
+            <a href="https://twitter.com/SaividyaIT"><img class="sicon"
+                    src="https://img.icons8.com/android/50/000000/twitter.png"></a>
+            <a href="https://www.linkedin.com/school/sai-vidya-institute-of-technology/about/"><img class="sicon"
+                    src="https://img.icons8.com/android/50/000000/linkedin.png"></a>
+            <a href="https://www.youtube.com/channel/UCWL2olPwqAo6QUzcpiKwdZA"><img class="sicon"
+                    src="https://img.icons8.com/ios-glyphs/50/000000/youtube.png"></a>
+        </center>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+
 </html>
