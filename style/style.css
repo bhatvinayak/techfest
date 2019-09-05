@@ -165,13 +165,13 @@ button{
   border: 1px solid black;
 }
 .cont:hover{
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 15px black;
 }
 .poster-main:hover{
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 15px black;
 }
 button:hover{
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 15px black;
 }
 #cont1{
   margin-left: 9vw;
