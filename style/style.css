@@ -167,7 +167,7 @@ button{
 .cont:hover{
   box-shadow: 0 0 20px black;
 }
-.poster-main{
+.poster-main:hover{
   box-shadow: 0 0 20px black;
 }
 button:hover{
