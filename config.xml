@@ -16,7 +16,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <icon src="logo1.png" />
+    <icon src="./images/logo1.png" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
