@@ -167,6 +167,9 @@ button{
   margin: 10px;
   margin-bottom: 1px;
 }
+h5{
+  font-size: 4vw;
+}
 .gmap{
   width: 90vw;
   margin-left: 5vw;
