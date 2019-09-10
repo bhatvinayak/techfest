@@ -212,7 +212,7 @@ button:hover{
   margin-top: 20px;
 }
 #cont-img{
-  width: 28vw;
+  width: 26.5vw;
   height: 28vw;
   margin-left: 0.8vw; 
   margin-right: 0.8vw; 
@@ -221,7 +221,7 @@ button:hover{
 {
   #cont-img{
     height: 28vw;
-    width: 27.5vw;
+    width: 27vw;
   }
   .cont{
     border: 0.5px solid  black;
