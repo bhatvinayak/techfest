@@ -33,6 +33,7 @@ a{
 .menu-icon{
   height: 5vw;
   width: 5vw;
+  padding: 2vw;
 }
 .menu-close{
   height: 5vw;
@@ -69,6 +70,7 @@ a{
   }
 .content{
       padding: 5px;
+      width: 96vw;
 }
 .content-head{
   display: inline-flex;
@@ -93,13 +95,14 @@ margin-left: 10px;
 }
 .cont{
   border: 0.5px solid  black;
-  width: 100px;
+  width: 33vw;
   padding:3px;
   margin: 4px;
 
 }
 .container{
   display: inline-flex;
+  width: 99vw;
 }
 h5{
   text-align: center;
@@ -181,15 +184,19 @@ button:hover{
   border-top: 1px solid black;
   margin-top: 20px;
 }
+#cont-img{
+  width: 29vw;
+  height: 29vw;;
+}
 @media screen and (min-width: 620px)
 {
   #cont-img{
-    height: 29vw;
-    width: 29vw;
+    height: 100vw;
+    width: 100vw;
   }
   .cont{
     border: 0.5px solid  black;
-    width: auto;
+    width: 100vw;
     padding:10px;
     margin: 10px;
   }
@@ -201,6 +208,13 @@ button:hover{
   .sicon{
     width: 3vw;
     height: 3vw;;
+  }
+  .navbar{
+    height: 15vw;
+  }
+  .logo{
+    font-size: 4vw;
+    font-family: Roboto;
   }
 }
 
