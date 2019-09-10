@@ -2,12 +2,14 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  background: #FBF3F2;
 }
 .navbar{
-  background: rgb(219, 160, 32);
+  background: #FA991C;
   height: 20vw;
   width: 100vw;
   position: sticky;
+  text-transform: uppercase;
 }
 .logo{
   float: left;
@@ -82,7 +84,7 @@ footer{
     display: inline-block;
     height: auto;
     width: 100vw;
-    background: rgb(219, 160, 32);
+    background: rgb(40, 135, 161);
 }
 .foot{
     padding-top: 20px;
@@ -113,7 +115,8 @@ button{
   outline: none;
   border: none;
   font-weight: bold;
-  background: rgb(228, 181, 80);
+  background: #032539;
+  color: #FBF3F2; 
   margin-left: 14vw; 
   margin-right: 14vw;
   margin-top: 5vw;
@@ -185,7 +188,7 @@ button:hover{
   margin-top: 20px;
 }
 #cont-img{
-  width: 29vw;
+  width: 30vw;
   height: 29vw;;
 }
 @media screen and (min-width: 620px)
@@ -217,7 +220,11 @@ button:hover{
     font-family: Roboto;
   }
 }
-
+h1{
+  font-size: 4vw;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
 .app{
   width:30vw;
   height: 15vw;

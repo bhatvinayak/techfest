@@ -5,8 +5,8 @@ function  menuopen(){
     document.querySelector(".op2").style=" display: grid; width: 90%;text-align: center;padding:20px";
     document.querySelector(".op3").style=" display: grid;width: 90%;text-align: center;padding:20px";
     document.querySelector(".op4").style=" display: grid;width: 90%;text-align: center;padding:20px";
-    document.querySelector(".x").style="visibility: visible; display: grid;";
-    document.querySelector(".respmenu").style="background: rgb(219, 160, 32);";
+    document.querySelector(".x").style="visibility: visible; display: grid;margin: 2vw;";
+    document.querySelector(".respmenu").style="background: #FA991C;";
 }
 function menuclose(){
     document.querySelector(".menu").style="visibility: visible";
