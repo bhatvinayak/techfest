@@ -178,6 +178,25 @@ button{
 }
 .cont:hover{
   box-shadow: 0 0 15px black;
+  border: none;
+  background-color: rgba(64, 191, 193, 0.589);
+}
+.reg1{
+  display: none;
+  width: 20vw;
+  height: 10vw;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  background: #032539;
+  color: #FBF3F2; 
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto; 
+}
+.cont:hover button{
+  display: block;
 }
 .poster-main:hover{
   box-shadow: 0 0 15px black;
@@ -195,7 +214,9 @@ button:hover{
 }
 #cont-img{
   width: 29vw;
-  height: 29vw;;
+  height: 29vw;
+  margin-left: 0.8vw; 
+  margin-right: 0.8vw; 
 }
 @media screen and (min-width: 620px)
 {
@@ -213,6 +234,9 @@ button:hover{
     height: 5vw;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .reg1{
+    height: 5vw;
   }
   .sicon{
     width: 3vw;
