@@ -6,7 +6,7 @@ body{
   font-size: 3vw;
 }
 h2{
-  font-size: 3vw;
+  font-size: 4vw;
 }
 .navbar{
   background: #FA991C;
@@ -179,7 +179,6 @@ button{
 .cont:hover{
   box-shadow: 0 0 15px black;
   border: none;
-  background-color: rgba(64, 191, 193, 0.589);
 }
 .reg1{
   display: none;
