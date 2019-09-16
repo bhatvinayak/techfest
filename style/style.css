@@ -92,8 +92,16 @@ footer{
 .dept{
 text-justify: center;
 margin-left: 10px; 
-
-
+}
+@media screen and (max-width: 620px)
+{
+  .menudesk{
+    display: none;
+  }
+}
+.logo{
+  font-size: 4vw;
+  font-family: Roboto;
 }
 .cont{
   width: 33vw;
@@ -211,6 +219,7 @@ button:hover{
   margin-left: 0.8vw; 
   margin-right: 0.8vw; 
 }
+
 @media screen and (min-width: 620px)
 {
   #cont-img{
@@ -265,4 +274,26 @@ h1{
 .app{
   width:30vw;
   height: 15vw;
+}
+@media screen and (min-width: 621px)
+{
+  .respmenu{
+    display: none !important;
+  }
+  .x{
+    display: none !important;
+  }
+  .menu{
+    display: none !important;
+  }
+  .menudesk{
+    display: inline-flex;
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding-top: 3.5vw;
+    float: right;
+  }
+  .m1,.m2,.m3,.m4{
+    padding: 1vw;
+  }
 }
