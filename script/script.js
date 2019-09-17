@@ -1,12 +1,12 @@
 
 function  menuopen(){
     document.querySelector(".menu").style="visibility:hidden";
-    document.querySelector(".op1").style=" display: grid; width: 90%;text-align: center;padding:20px";
-    document.querySelector(".op2").style=" display: grid; width: 90%;text-align: center;padding:20px";
-    document.querySelector(".op3").style=" display: grid;width: 90%;text-align: center;padding:20px";
-    document.querySelector(".op4").style=" display: grid;width: 90%;text-align: center;padding:20px";
-    document.querySelector(".x").style="visibility: visible; display: grid;margin: 2vw;";
-    document.querySelector(".respmenu").style="background: #FA991C;";
+    document.querySelector(".op1").style=" display: grid; width: 94%;text-align: center;padding:20px";
+    document.querySelector(".op2").style=" display: grid; width: 94%;text-align: center;padding:20px";
+    document.querySelector(".op3").style=" display: grid;width: 94%;text-align: center;padding:20px";
+    document.querySelector(".op4").style=" display: grid;width: 94%;text-align: center;padding:20px";
+    document.querySelector(".x").style="visibility: visible; display: grid;margin: 2vw;background-color: #FA991C;";
+    document.querySelector(".respmenu").style="background-color: #FA991C;!importent";
 }
 function menuclose(){
     document.querySelector(".menu").style="visibility: visible";

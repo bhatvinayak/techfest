@@ -263,6 +263,27 @@ button:hover{
   .more{
     font-size: 1.5vw;
   }
+  .menu,.x,.respmenu{
+    display: none;
+  }
+  .deskmenu{
+    font-size: 2.5vw;
+    padding-top: 6vw;
+    float: right;
+  }
+  .m1,.m2,.m3,.m4{
+    font-weight: bold;
+    padding-right: 1vw;
+  }
+}
+@media screen and (max-width: 620px)
+{
+  .menu,.respmenu{
+    display: inherit;
+  }
+  .deskmenu{
+    display: none;
+  }
 }
 h1{
   font-size: 4vw;
