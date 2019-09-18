@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="tk.rakesh.techvidya" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="tk.rakesh.techvidya" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Techvidya-2k19</name>
     <description>
         This app is  designed for the technical fest of sai vidya institute of tecchnology.
@@ -16,7 +16,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <icon src="./images/logo1.png" />
+    <icon src="./images/app.png" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
