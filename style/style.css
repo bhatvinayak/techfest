@@ -12,9 +12,11 @@ h2{
   background: #FA991C;
   height: 20vw;
   width: 100vw;
-  position: sticky;
+  position: fixed;
   text-transform: uppercase;
+  top: 0;
 }
+
 .logo{
   float: left;
   display: block;
@@ -142,6 +144,7 @@ button{
 }
 .main-cont{
   width: 90vw;
+  margin-top: 20vw;
 }
 .poster-main{
   width: 90vw;
