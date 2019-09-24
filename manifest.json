@@ -15,7 +15,7 @@
       }
     ],
     "start_url": "https://techvidya.tk",
-    "background_color": "rgb(118, 235, 40)",
+    "background_color": "#FA991C",
     "display": "standalone",
     "scope": "/",
     "theme_color": "rgb(118, 235, 40)"
