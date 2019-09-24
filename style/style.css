@@ -15,6 +15,7 @@ h2{
   position: fixed;
   text-transform: uppercase;
   top: 0;
+  box-shadow: 0 0 5px #032539;
 }
 
 .logo{
