@@ -108,7 +108,6 @@ margin-left: 10px;
   width: 33vw;
   padding:3px;
   margin: 4px;
-
 }
 .container{
   display: inline-flex;
@@ -228,7 +227,7 @@ button:hover{
     width: 27vw;
   }
   .cont{
-    border: 0.5px solid  black;
+    border: 1px solid  black;
     width: 100vw;
     padding:10px;
     margin: 10px;
