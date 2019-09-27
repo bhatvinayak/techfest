@@ -5,7 +5,7 @@ function  menuopen(){
     document.querySelector(".op2").style=" display: grid; width: 94%;text-align: center;padding:20px";
     document.querySelector(".op3").style=" display: grid;width: 94%;text-align: center;padding:20px";
     document.querySelector(".op4").style=" display: grid;width: 94%;text-align: center;padding:20px";
-    document.querySelector(".x").style="visibility: visible; display: grid;margin: 2vw;background-color: #616161!important;";
+    document.querySelector(".x").style="visibility: visible; display: grid;margin: 2vw;background-color: rgba(76, 175, 79, 0.9) !important;";
     document.querySelector(".respmenu").style="background-color: rgba(76, 175, 79, 0.9) !important";
 }
 function menuclose(){
