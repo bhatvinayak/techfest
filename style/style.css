@@ -47,8 +47,8 @@ a{
   width: 4vw;
 }
 .icon{
-  height: 7vw;
-  width: 7vw;
+  height: 10vw;
+  width: 10vw;
   vertical-align: middle;
 }
 a{
@@ -280,6 +280,7 @@ button:hover{
     padding-top: 2vw;
     float: right;
   }
+
   .m1,.m2,.m3,.m4{
     font-size: 2vw;
     font-weight: bold;
