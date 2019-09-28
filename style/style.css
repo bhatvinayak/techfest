@@ -10,6 +10,7 @@ h2{
 }
 .navbar{
   background: #4CAF50 !important;
+  background: #fff !important;
   height: 20vw;
   width: 100vw;
   position: fixed;
@@ -102,7 +103,8 @@ margin-left: 10px;
 
 }
 .cont{
-  border: 0.5px solid  black;
+  border: 0.5px solid  rgb(160, 148, 148);
+  border-radius: 10px;
   width: 33vw;
   padding:3px;
   margin: 4px;
@@ -180,10 +182,10 @@ h5{
   height: 20vw;
   border: 1px solid black;
 }
-.cont:hover{
+/*.cont:hover{
   box-shadow: 0 0 15px black;
   border: none;
-}
+}*/
 .reg1{
   display: none;
   width: 20vw;
@@ -225,7 +227,8 @@ button:hover{
     width: 27vw;
   }
   .cont{
-    border: 1px solid  black;
+    border: 1px solid  rgb(160, 154, 154);
+    border-radius: 10px;
     width: 100vw;
     padding:10px;
     margin: 10px;
