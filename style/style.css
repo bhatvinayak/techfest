@@ -122,12 +122,12 @@ button{
   outline: none;
   border: none;
   font-weight: bold;
-  background: #616161!important;
-  color: #FBF3F2; 
+  background: #4CAF50 !important; 
   margin-left: 14vw; 
   margin-right: 14vw;
   margin-top: 5vw;
   margin-bottom: 5vw; 
+  border-radius: 5px;
 }
 .dept-list{
   display: inline-flex;

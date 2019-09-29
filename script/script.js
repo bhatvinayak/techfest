@@ -16,6 +16,7 @@ function menuclose(){
     document.querySelector(".op4").style="display: none";
     document.querySelector(".x").style="visibility: hidden";
 }
+document.querySelector(".menu").addEventListener("onblur",menuclose);
 function opencse(){
     document.querySelector(".civ").style="display: none;"
     document.querySelector(".cse").style="display: initial;"
