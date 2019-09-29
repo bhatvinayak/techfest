@@ -9,7 +9,7 @@ h2{
   font-size: 4vw;
 }
 .navbar{
-  background: #4CAF50 !important;
+  background-color: #cc9543  !important;
   height: 20vw;
   width: 100vw;
   position: fixed;
@@ -90,7 +90,7 @@ footer{
     display: inline-block;
     height: auto;
     width: 100vw;
-    background: #4CAF50 !important;
+    background-color: #cc9543 !important;
 }
 .foot{
     padding-top: 20px;
@@ -122,7 +122,7 @@ button{
   outline: none;
   border: none;
   font-weight: bold;
-  background: #4CAF50 !important; 
+  background: #34ACBB  !important; 
   margin-left: 14vw; 
   margin-right: 14vw;
   margin-top: 5vw;
@@ -322,5 +322,5 @@ h1{
   height: 6vw;
 }
 .svit{
-  font-size: 0.7em;
+  font-size: 0.6em;
 }
