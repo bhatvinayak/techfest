@@ -45,10 +45,12 @@
     }
 
     .post {
-        width: 40vw;
-        height: 25vw;
+        width: 80vw;
+        height: 35vw;
         margin-top: 1vw;
         margin-bottom: 1vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
     .dept {
@@ -72,6 +74,21 @@
         margin-right: 5vw;
         margin-left: 5vw;
         font-size: 3vw;
+    }
+    @media screen and (min-width: 620px){
+        .events{
+            display: inline-flex;
+        }
+        .post{
+            width: 40vw;
+            height: 20vw;
+        }
+        .p1{
+            margin-left: 3vw;margin-right: 2vw;
+        }
+        .p2{
+            margin-right: 3vw;margin-left: 2vw;
+        }
     }
 </style>
 
@@ -104,18 +121,18 @@
     <center>
         <div style="background: #fff;width:90vw;margin:5vw;padding-top:2vw;margin-top:0;">
             <a href="events.html">
-                <p style="font-weight: bolder;font-size:3vw;margin-top:1vw;margin-bottom:2vw;">Events</p>
+                <p style="font-weight: bolder;font-size:3vw;margin-top:1vw;margin-bottom:2vw;text-transform: uppercase">Events</p>
             </a>
-            <div style="display: inline-flex;">
-                <a href="searchit.html"><img class="post" style="margin-left: 3vw;margin-right: 2vw;"
+            <div class="events">
+                <a href="searchit.html"><img class="post p1" 
                         src="images/searchit.jpg"></a>
-                <a href="crypto.html"><img class="post" style="margin-right: 3vw;margin-left: 2vw;"
+                <a href="crypto.html"><img class="post p2"
                         src="images/crypto.png"></a>
             </div>
-            <div style="display: inline-flex;">
-                <a href="codedebug.html"><img style="margin-left: 3vw;margin-right: 2vw;" class="post"
+            <div class="events">
+                <a href="codedebug.html"><img  class="post p1"
                         src="images/code.jpg"></a>
-                <a href="pubg.html"><img style="margin-right: 3vw;margin-left: 2vw;" class="post"
+                <a href="pubg.html"><img class="post p2"
                         src="images/pubg.jpg"></a>
             </div>
 
@@ -125,7 +142,7 @@
 
     <div class="dept" style="background: #fff;height: 40vw;width:90vw;margin:5vw;padding-top: 1vw;padding-bottom: 2vw;">
         <center>
-            <h3 style="font-size: 3vw;;">Department Event List</h3>
+            <h3 style="font-size: 3vw;text-transform: uppercase;">Department Event List</h3>
         </center>
         <div class="dept-list" style="margin-bottom: 4vw;">
             <a href="cse.html"><button style="margin-left: 21vw;margin-right: 5vw;">CSE/ISE</button></a>
