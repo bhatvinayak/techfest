@@ -22,19 +22,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <style>
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url("./images/icon.png") center no-repeat #fff;
-    background-size: 30vw 30vw;
-}
+    .no-js #loader {
+        display: none;
+    }
+
+    .js #loader {
+        display: block;
+        position: absolute;
+        left: 100px;
+        top: 0;
+    }
+
+    .se-pre-con {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url("./images/icon.png") center no-repeat #fff;
+        background-size: 30vw 30vw;
+    }
+
+    .post {
+        width: 40vw;
+        height: 25vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .dept {
+        margin: 0;
+    }
+
+    .dept-list,
+    .dept-list1 {
+        width: 90vw;
+        height: 10vw;
+        display: inline-flex;
+    }
+
+    .dept-list>a>button {
+        width: 20vw;
+        font-size: 3vw;
+    }
+
+    .dept-list1>a>button {
+        width: 20vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        font-size: 3vw;
+    }
 </style>
+
 <body>
     <div class="se-pre-con"></div>
     <div class="navbar">
@@ -61,84 +101,49 @@
     <div class="main-cont">
         <a href="explore.html"> <img class="poster-main" src="./images/poster.jpg"></a>
     </div>
-   <!-- <div style="background-color: #616161d8!important;color:white !important;">
-        <a href="codedebug.html"><section style="display: inline-flex;">
-            <img src="./images/code.jpg" style="width: 50vw; height: 20vw;margin: 5vw;margin-right:13vw;">
-            <h5 style="color: #fff;margin:auto;">Code & Debug</h5>
-        </section></a>
-    </div>
-    <div style="background-color:rgba(76, 175, 79, 0.788)!important;color:white !important;">
-            <a href="searchit.html"> <section style="display: inline-flex;">
-                <h5 style="color: #fff;margin:auto;margin-left:13vw;">Search-It!</h5>
-                <img src="./images/searchit.jpg" style="width: 50vw; height: 20vw;margin: 5vw;margin-left:16vw;">
-        </section></a>
-    </div>
-    <div style="background-color: #616161!important;color:white !important;">
-            <a href="crypto.html"><section style="display: inline-flex;">
-                <img src="./images/crypto.png" style="width: 50vw; height: 20vw;margin: 5vw;margin-right:13vw;">
-                <h5 style="color: #fff;margin:auto;">Crypto-Hunt</h5>
-            </section></a>
-        </div>
--->
-    <div class="content">
-        <div class="cont-header">
-            <a class="more" href="events.html">More</a>
-            <h2>Events</h2>
-        </div>
-        <div class="container">
-            <div class="cont" ><a href="tpp.html">
-                   <h5>Technical Paper Presentation</h5>
-                    <img id="cont-img" src="./images/tpp.jpg" height="100vw" width="100vw">
-            </div></a>
-            <div class="cont"><a href="codedebug.html">
-                    <h5>Coding & Debuging</h5>
-                    <img id="cont-img" src="./images/code.jpg" height="100vw" width="100vw">
-            </div></a>
-            <div class="cont"><a href="crypto.html">
-                    <h5>Crypto-Hunt<br><br></h5>
-                    <img id="cont-img" src="./images/crypto.png" height="100vw" width="100vw">
-            </div></a>
-        </div>
-    </div>
-    <div class="content">
-        <div class="container">
-            <div class="cont"><a href="searchit.html">
-                    <h5>Search-It!</h5>
-                    <img id="cont-img" src="./images/searchit.jpg" height="100vw" width="100vw">
-            </div></a>
-            <div class="cont"><a href="pubg.html">
-                    <h5>PUBG</h5>
-                    <img id="cont-img" src="./images/pubg.jpg" height="100vw" width="100vw">
-            </div></a>
-            <div class="cont"><a href="cs.html">
-                    <h5>Counter Strike</h5>
-                    <img id="cont-img" src="./images/CS.jpg" height="100vw" width="100vw">
+    <center>
+        <div style="background: #fff;width:90vw;margin:5vw;padding-top:2vw;margin-top:0;">
+            <a href="events.html">
+                <p style="font-weight: bolder;font-size:3vw;margin-top:1vw;margin-bottom:2vw;">Events</p>
+            </a>
+            <div style="display: inline-flex;">
+                <a href="searchit.html"><img class="post" style="margin-left: 3vw;margin-right: 2vw;"
+                        src="images/searchit.jpg"></a>
+                <a href="crypto.html"><img class="post" style="margin-right: 3vw;margin-left: 2vw;"
+                        src="images/crypto.png"></a>
             </div>
-            
-        </div>
-    </div>
+            <div style="display: inline-flex;">
+                <a href="codedebug.html"><img style="margin-left: 3vw;margin-right: 2vw;" class="post"
+                        src="images/code.jpg"></a>
+                <a href="pubg.html"><img style="margin-right: 3vw;margin-left: 2vw;" class="post"
+                        src="images/pubg.jpg"></a>
+            </div>
 
-    <div class="dept">
-        <center><h3>Department Event List</h3></center>
-        <div class="dept-list">
-            <a href="cse.html"><button>CSE/ISE</button></a>
-            <a href="ece.html"><button>ECE/EEE</button></a>
+
         </div>
-        <div class="dept-list">
+    </center>
+
+    <div class="dept" style="background: #fff;height: 40vw;width:90vw;margin:5vw;padding-top: 1vw;padding-bottom: 2vw;">
+        <center>
+            <h3 style="font-size: 3vw;;">Department Event List</h3>
+        </center>
+        <div class="dept-list" style="margin-bottom: 4vw;">
+            <a href="cse.html"><button style="margin-left: 21vw;margin-right: 5vw;">CSE/ISE</button></a>
+            <a href="ece.html"><button style="margin-left: 5vw;margin-right: 21vw;">ECE/EEE</button></a>
+        </div>
+        <div class="dept-list1">
             <a href="civil.html"><button>CIVIL</button></a>
             <a href="mech.html"><button>MECH</button></a>
+            <a href="mba.html"><button>MBA</button></a>
         </div>
-    </div>
-    </div>
-    <div class="play">
-        <h5>Mobile App</h5>
-        <center><a href="https://play.google.com/store/apps/details?id=com.bgvinayak.techvidya2k19"><img class="app"
-                    src="./images/goplay.png"></a></center>
     </div>
     <footer>
         <center>
-            <div class="foot"><a href="https://saividya.ac.in"><p class="svit" style="font-weight: bold">Sai Vidya Institute of Technology</p></a></div>
-            <p style="font-weight: 500">Rajanukunte,Doddaballapur Road,Bangalore-560064</p>
+            <a href="https://saividya.ac.in">
+                <h5 style="font-size:3vw;margin-top:1vw;margin-bottom:1vw;">Sai Vidya Institute Of Technology</h5>
+            </a>
+            <h6 style="font-size:2vw;margin-top:1vw;margin-bottom:1vw;">Rajanukunte,Doddaballapur Road,Bangalore-560064
+            </h6>
         </center>
         <center>
             <a href="https://www.facebook.com/SaiVidyaInstituteOfTechnology"><img class="sicon"
@@ -152,18 +157,25 @@
             <a href="https://www.youtube.com/channel/UCWL2olPwqAo6QUzcpiKwdZA"><img class="sicon"
                     src="https://img.icons8.com/ios-glyphs/50/000000/youtube.png"></a>
         </center>
-        
         <div>
-                <center><p>&copy;2019 Sai Vidya Institute of Technology</p></center>
-            </div>
+            <center><a href="https://play.google.com/store/apps/details?id=com.bgvinayak.techvidya2k19"><img class="app"
+                        src="./images/goplay.png"></a></center>
+        </div>
+
+        <div>
+            <center>
+                <p style="margin-top:1vw;margin-bottom:1vw;font-weight: bold;font-size: 2vw;">&copy;2019 SVIT</p>
+            </center>
+        </div>
     </footer>
     <script src="./script/script.js"></script>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 <script>
-$(window).load(function() {
-    $(".se-pre-con").fadeOut("slow");;
-});
+    $(window).load(function () {
+        $(".se-pre-con").fadeOut("slow");;
+    });
 </script>
+
 </html>

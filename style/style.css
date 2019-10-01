@@ -2,27 +2,28 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
-  background: #FBF3F2;
+  background: rgba(30, 30, 30, 1);
   font-size: 4vw;
+  min-height: 100%;
+  position: relative;
 }
 h2{
   font-size: 4vw;
 }
 .navbar{
   background-color: #cc9543  !important;
-  height: 20vw;
+  height: 12vw;
   width: 100vw;
   position: fixed;
   text-transform: uppercase;
   top: 0;
   box-shadow: 0 0 5px #032539;
 }
-
 .logo{
   float: left;
   display: block;
-  padding: 20px;
-  font-size: 24px;
+  padding: 1.5vw;
+  font-size: 4vw;
   font-weight: bolder;
   font-family: 'Open Sans', sans-serif;
 }
@@ -37,14 +38,18 @@ h2{
 a{
   color: black
 }
+a.menu{
+  padding: 1vw;
+}
 .menu-icon{
   height: 3vw;
   width: 4vw;
-  padding: 2vw;
+  padding: 1vw;
 }
 .menu-close{
   height: 3vw;
   width: 4vw;
+  padding: 2vw;
 }
 .icon{
   height: 10vw;
@@ -56,22 +61,22 @@ a{
   animation: none;
 }
 .op1{
-    font-size: 16px;
+    font-size: 3vw;
     display: none;
     font-weight: bold;
   }
 .op2{
-    font-size: 16px;
+    font-size: 3vw;
     display: none;
     font-weight: bold;
   }
 .op3{
-    font-size: 16px;
+    font-size: 3vw;
     display: none;
     font-weight: bold;
   }
   .op4{
-    font-size: 16px;
+    font-size: 3vw;
     display: none;
     font-weight: bold;
   }
@@ -122,7 +127,7 @@ button{
   outline: none;
   border: none;
   font-weight: bold;
-  background: #34ACBB  !important; 
+  background: rgb(224, 162, 87) !important; 
   margin-left: 14vw; 
   margin-right: 14vw;
   margin-top: 5vw;
@@ -143,7 +148,7 @@ button{
 }
 .main-cont{
   width: 90vw;
-  margin-top: 20vw;
+  margin-top: 12vw;
 }
 .poster-main{
   width: 90vw;
@@ -191,7 +196,7 @@ h5{
   outline: none;
   border: none;
   font-weight: bold;
-  background: #1774aac7;
+  background: bisque;
   color: #FBF3F2; 
   margin-left: auto; 
   margin-right: auto;
@@ -201,16 +206,12 @@ h5{
 .poster-main:hover{
   box-shadow: 0 0 15px black;
 }
-button:hover{
-  box-shadow: 0 0 15px black;
-}
 #cont1{
   margin-left: 9vw;
   margin-right: 9vw; 
 }
 .CSE{
-  border-top: 1px solid black;
-  margin-top: 20px;
+  margin-top: 15vw;
 }
 #cont-img{
   width: 26.5vw;
@@ -247,7 +248,7 @@ button:hover{
     height: 7vw;
   }
   .logo{
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: 'Open Sans';
   }
   .cont:hover button{
@@ -283,7 +284,7 @@ button:hover{
   }
 
   .m1,.m2,.m3,.m4{
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: bold;
     padding-right: 2vw;
   }
@@ -304,11 +305,12 @@ button:hover{
     display: none;
   }
   .menu-close,.menu{
-    padding: 19px;
+    padding: 2vw;
   }
   .menu-icon{
-    height: 5vw;
-    width: 5vw;
+    height: 4vw;
+    width: 4vw;
+    margin: 1vw;
   }
 }
 h1{
@@ -322,4 +324,7 @@ h1{
 }
 .svit{
   font-size: 5vw;
+}
+.m4:hover{
+  color: white;
 }

@@ -1,11 +1,11 @@
 
 function  menuopen(){
     document.querySelector(".menu").style="visibility:hidden";
-    document.querySelector(".op1").style=" display: grid; width: 94%;text-align: center;padding:20px";
-    document.querySelector(".op2").style=" display: grid; width: 94%;text-align: center;padding:20px";
-    document.querySelector(".op3").style=" display: grid;width: 94%;text-align: center;padding:20px";
-    document.querySelector(".op4").style=" display: grid;width: 94%;text-align: center;padding:20px";
-    document.querySelector(".x").style="visibility: visible; display: grid;margin: 2vw;background-color: #cc9543 !important;";
+    document.querySelector(".op1").style=" display: grid; width: 94%;text-align: center;padding:4vw;"
+    document.querySelector(".op2").style=" display: grid; width: 94%;text-align: center;padding:4vw;"
+    document.querySelector(".op3").style=" display: grid;width: 94%;text-align: center;padding:4vw;"
+    document.querySelector(".op4").style=" display: grid;width: 94%;text-align: center;padding:4vw;"
+    document.querySelector(".x").style="visibility: visible; display: grid;margin: 1vw;background-color: #cc9543 !important;";
     document.querySelector(".respmenu").style="background-color: #cc9543 !important";
 }
 function menuclose(){
@@ -19,7 +19,7 @@ function menuclose(){
 document.querySelector(".menu").addEventListener("onblur",menuclose);
 function opencse(){
     document.querySelector(".civ").style="display: none;"
-    document.querySelector(".cse").style="display: initial;"
+    document.querySelector(".cse").style="display: initial;background-color: #fff !important;width: 90vw;"
     document.querySelector(".mec").style="display: none;"
     document.querySelector(".ece").style="display: none;"
 }

@@ -1,11 +1,15 @@
+.menu-close{
+    padding: 1vw;
+    margin: 1vw;
+}
 .event{
-    margin: 7.5vw;
+    margin: -1vw;
     padding-bottom: 10px; 
     width: 85vw;
-    padding-top: 20vw;
+    padding-top: 2vw;
 }
 .poster{
-    margin-top: 5vw;
+    margin-top: 1vw;
     height: 30vw;
     width: 80vw;
     border: 1px solid black;
