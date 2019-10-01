@@ -1,11 +1,11 @@
 
 function  menuopen(){
     document.querySelector(".menu").style="visibility:hidden";
-    document.querySelector(".op1").style=" display: grid; width: 94%;text-align: center;padding:2vw;font-size:2vw"
-    document.querySelector(".op2").style=" display: grid; width: 94%;text-align: center;padding:2vw;font-size:2vw"
-    document.querySelector(".op3").style=" display: grid;width: 94%;text-align: center;padding:2vw;font-size:2vw"
-    document.querySelector(".op4").style=" display: grid;width: 94%;text-align: center;padding:2vw;font-size:2vw"
-    document.querySelector(".x").style="visibility: visible; display: grid;margin: 2vw;background-color: #cc9543 !important;";
+    document.querySelector(".op1").style=" display: grid; width: 94%;text-align: center;padding:20px;font-size:2vw"
+    document.querySelector(".op2").style=" display: grid; width: 94%;text-align: center;padding:20px;font-size:2vw"
+    document.querySelector(".op3").style=" display: grid;width: 94%;text-align: center;padding:20px;font-size:2vw"
+    document.querySelector(".op4").style=" display: grid;width: 94%;text-align: center;padding:20px;font-size:2vw"
+    document.querySelector(".x").style="visibility: visible; display: grid;margin: 20px;background-color: #cc9543 !important;";
     document.querySelector(".respmenu").style="background-color: #cc9543 !important";
 }
 function menuclose(){
