@@ -49,7 +49,7 @@ a.menu{
 .menu-close{
   height: 3vw;
   width: 4vw;
-  padding: 2vw;
+  padding: 1vw;
 }
 .icon{
   height: 10vw;
@@ -305,7 +305,7 @@ h5{
     display: none;
   }
   .menu-close,.menu{
-    padding: 2vw;
+    padding: 0vw;
   }
   .menu-icon{
     height: 4vw;
