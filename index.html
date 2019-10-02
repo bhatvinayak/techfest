@@ -75,19 +75,25 @@
         margin-left: 5vw;
         font-size: 3vw;
     }
-    @media screen and (min-width: 620px){
-        .events{
+
+    @media screen and (min-width: 620px) {
+        .events {
             display: inline-flex;
         }
-        .post{
+
+        .post {
             width: 40vw;
             height: 20vw;
         }
-        .p1{
-            margin-left: 3vw;margin-right: 2vw;
+
+        .p1 {
+            margin-left: 3vw;
+            margin-right: 2vw;
         }
-        .p2{
-            margin-right: 3vw;margin-left: 2vw;
+
+        .p2 {
+            margin-right: 3vw;
+            margin-left: 2vw;
         }
     }
 </style>
@@ -118,22 +124,20 @@
     <div class="main-cont">
         <a href="explore.html"> <img class="poster-main" src="./images/poster.jpg"></a>
     </div>
+    <center><p id="demo" style="color: #fff;border:1px solid #fff;width: 90vw;font-weight: bold;border-radius: 10px;margin-top: 0;"> </p></center>
     <center>
         <div style="background: #fff;width:90vw;margin:5vw;padding-top:2vw;margin-top:0;">
             <a href="events.html">
-                <p style="font-weight: bolder;font-size:3vw;margin-top:1vw;margin-bottom:2vw;text-transform: uppercase">Events</p>
+                <p style="font-weight: bolder;font-size:3vw;margin-top:1vw;margin-bottom:2vw;text-transform: uppercase">
+                    Events</p>
             </a>
             <div class="events">
-                <a href="searchit.html"><img class="post p1" 
-                        src="images/searchit.jpg"></a>
-                <a href="crypto.html"><img class="post p2"
-                        src="images/crypto.png"></a>
+                <a href="searchit.html"><img class="post p1" src="images/searchit.jpg"></a>
+                <a href="crypto.html"><img class="post p2" src="images/crypto.png"></a>
             </div>
             <div class="events">
-                <a href="codedebug.html"><img  class="post p1"
-                        src="images/code.jpg"></a>
-                <a href="pubg.html"><img class="post p2"
-                        src="images/pubg.jpg"></a>
+                <a href="codedebug.html"><img class="post p1" src="images/code.jpg"></a>
+                <a href="pubg.html"><img class="post p2" src="images/pubg.jpg"></a>
             </div>
 
 
@@ -194,5 +198,24 @@
         $(".se-pre-con").fadeOut("slow");;
     });
 </script>
+<script>
+    var deadline = new Date("Oct 18, 2019 09:00:00").getTime();
+    var x = setInterval(function () {
+        var now = new Date().getTime();
+        var t = deadline - now;
+        var days = Math.floor(t / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((t % (1000 * 60)) / 1000);
+        document.getElementById("demo").innerHTML ="Are you excited? <br>"+ days + "d "
+            + hours + "h " + minutes + "m " + seconds + "s left";
+        if (t < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+
+</script>
+
 
 </html>
