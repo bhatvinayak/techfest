@@ -11,7 +11,7 @@ h2{
   font-size: 4vw;
 }
 .navbar{
-  background-color: #f96c0d !important;
+  background-color: #ff751a	!important;
   height: 13vw;
   width: 100vw;
   position: fixed;
@@ -65,6 +65,7 @@ a{
     display: none;
     font-weight: bold;
   }
+  
 .op2{
     font-size: 3vw;
     display: none;
@@ -95,7 +96,8 @@ footer{
     display: inline-block;
     height: auto;
     width: 100vw;
-    background-color: #f96c0d !important;
+    background-color: #99ff33	 !important;
+    bottom: 0;
 }
 .foot{
     padding-top: 20px;
@@ -127,7 +129,8 @@ button{
   outline: none;
   border: none;
   font-weight: bold;
-  background: #f96c0d !important; 
+  background: #032539	 !important; 
+  color: white;
   margin-left: 14vw; 
   margin-right: 14vw;
   margin-top: 5vw;
@@ -335,4 +338,18 @@ h1{
 }
 .m4:hover{
   color: white;
+}
+@media screen and (min-width: 420px)
+{
+  .menu-icon{
+    width: 4vw;
+    height: 3vw;
+  }
+  .menu-close{
+    width: 4vw;
+    height: 3vw;
+  }
+}
+.m1:hover,.m2:hover,.m3:hover{
+  color: white !important;
 }
