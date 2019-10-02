@@ -5,8 +5,8 @@ function  menuopen(){
     document.querySelector(".op2").style=" display: grid; width: 94%;text-align: center;padding:15px;font-size:3vw"
     document.querySelector(".op3").style=" display: grid;width: 94%;text-align: center;padding:15px;font-size:3vw"
     document.querySelector(".op4").style=" display: grid;width: 94%;text-align: center;padding:15px;font-size:3vw"
-    document.querySelector(".x").style="visibility: visible; display: grid;margin: 0px;background-color: #cc9543 !important;";
-    document.querySelector(".respmenu").style="background-color: #cc9543 !important";
+    document.querySelector(".x").style="visibility: visible; display: grid;margin: 0px;";
+    document.querySelector(".respmenu").style="background-color: rgba(249, 108, 13, 0.90) !important;transition: 0.5s";
 }
 function menuclose(){
     document.querySelector(".menu").style="visibility: visible";
@@ -15,6 +15,8 @@ function menuclose(){
     document.querySelector(".op3").style="display: none";
     document.querySelector(".op4").style="display: none";
     document.querySelector(".x").style="visibility: hidden";
+    document.querySelector(".respmenu").style="";
+
 }
 document.querySelector(".menu").addEventListener("onblur",menuclose);
 function opencse(){
