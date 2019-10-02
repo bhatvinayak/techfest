@@ -14,15 +14,27 @@
     .menu {
         display: inherit;
     }
-    .memo1{
+
+    .memo1 {
         width: 80vw;
         margin-bottom: 0;
     }
-    @media screen and (min-width: 420px){
-        .memo1{
-        width: 35vw;
-        margin-bottom: 0;
+
+    @media screen and (min-width: 420px) {
+        .memo1 {
+            width: 35vw;
+            margin-bottom: 0;
+        }
     }
+    @media screen and (max-width: 620px) {
+        .about{
+            margin-top: 19vw;
+        }
+    }
+    @media screen and (min-width: 620px) {
+        .about{
+            margin-top: 12vw;
+        }
     }
 </style>
 
@@ -40,14 +52,22 @@
         <a class="menu" onclick="menuopen()"><img class="menu-icon"
                 src="https://img.icons8.com/ios-filled/50/000000/menu.png"></a>
     </div>
-    <div style="margin-top: 12vw;margin-bottom: 5vw; background-color:#fff; width: 90vw;margin-left: 5vw;margin-right: 5vw; display: none;">
-        <center><h3>About Techvidya-2k19</h3></center>
-       <center> <p style="font-size: 100;font-weight:100;">Techvidya is our annual state level technical fest</p></center>
+    <div class="about"
+        style="margin-bottom: 5vw;padding-bottom: 5vw; background-color:#fff; width: 90vw;margin-left: 5vw;margin-right: 5vw;">
+        <center>
+            <h3>Techvidya</h3>
+        </center>
+        <center>
+            <p style="font-size: 100;font-weight:500;padding-left: 5vw;padding-right: 5vw;font-family: Open Sans;">Techvidya is our annual state level technical fest</p>
+        </center>
+        <img class="img1" style="width:80vw;margin-left:5vw;height: 35vw;" src="./images/poster.jpg"
+            alt="Techvidya-2k16 poster">
     </div>
 
-    <div class="memories" style="margin-top: 17vw;background-color: #fff !important;width: 90vw; margin-left: 5vw;margin-right: 5vw;">
+    <div class="memories"
+        style="margin-top: 5vw;background-color: #fff !important;width: 90vw; margin-left: 5vw;margin-right: 5vw;padding-bottom: 2vw;">
         <center>
-            <h3 style="padding-top:2vw;margin:0;text-transform: uppercase">Memories</h3>
+            <h3 style="padding-top:2vw;margin:0;text-transform: uppercase">Gallery</h3>
         </center>
         <div class="memo">
             <img class="memo1" src="./images/m1.jpeg">
@@ -93,6 +113,24 @@
                         src="./images/goplay.png"></a></center>
         </div>
     </footer>
+    <script>
+        function yourFunction() {
+            let myImage = document.querySelector('.img1');
+            let mySrc = myImage.getAttribute('src');
+            if (mySrc === './images/poster.jpg') {
+                myImage.setAttribute('src', './images/poster2k17.jpg');
+            } else if (mySrc === "./images/poster2k17.jpg") {
+                myImage.setAttribute('src', './images/webathon.jpg');
+            }
+            else {
+                myImage.setAttribute('src', './images/poster.jpg');
+            }
+            setTimeout(yourFunction, 5000);
+        }
+
+        yourFunction();
+        
+    </script>
     <script src="./script/script.js"></script>
 </body>
 
