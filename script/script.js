@@ -6,7 +6,7 @@ function  menuopen(){
     document.querySelector(".op3").style=" display: grid;width: 94%;text-align: center;padding:15px;font-size:3vw"
     document.querySelector(".op4").style=" display: grid;width: 94%;text-align: center;padding:15px;font-size:3vw"
     document.querySelector(".x").style="visibility: visible; display: grid;margin: 0px;";
-    document.querySelector(".respmenu").style="background-color:#f96c0d !important;transition: 0.5s";
+    document.querySelector(".respmenu").style="background-color:#e49c30 !important;transition: 0.5s";
 }
 function menuclose(){
     document.querySelector(".menu").style="visibility: visible";
