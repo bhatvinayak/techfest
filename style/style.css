@@ -12,7 +12,7 @@ h2{
 }
 .navbar{
   background-color: #cc9543  !important;
-  height: 12vw;
+  height: 15vw;
   width: 100vw;
   position: fixed;
   text-transform: uppercase;
@@ -221,6 +221,9 @@ h5{
 }
 @media screen and (min-width: 620px)
 {
+  .x{
+    padding: 20px;
+  }
   #cont-img{
     height: 28vw;
     width: 27vw;
