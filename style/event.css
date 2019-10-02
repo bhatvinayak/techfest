@@ -2,6 +2,11 @@
     padding: 1vw;
     margin: 1vw;
 }
+.reg{
+    width: 30vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
 .event{
     margin: 0;
     padding-bottom: 10px; 

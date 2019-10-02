@@ -11,7 +11,7 @@ h2{
   font-size: 4vw;
 }
 .navbar{
-  background-color: rgba(249, 108, 13, 0.90) !important;
+  background-color: #f96c0d !important;
   height: 13vw;
   width: 100vw;
   position: fixed;
@@ -95,7 +95,7 @@ footer{
     display: inline-block;
     height: auto;
     width: 100vw;
-    background-color: rgba(249, 108, 13, 0.90) !important;
+    background-color: #f96c0d !important;
 }
 .foot{
     padding-top: 20px;
@@ -127,7 +127,7 @@ button{
   outline: none;
   border: none;
   font-weight: bold;
-  background: rgba(249, 108, 13, 0.90) !important; 
+  background: #f96c0d !important; 
   margin-left: 14vw; 
   margin-right: 14vw;
   margin-top: 5vw;
