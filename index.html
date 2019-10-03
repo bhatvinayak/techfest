@@ -124,7 +124,6 @@
     <div class="main-cont">
         <a href="explore.html"> <img class="poster-main" src="./images/poster.jpg"></a>
     </div>
-    <center><p id="demo" style="color: #fff;border:1px solid #fff;width: 90vw;font-weight: bold;border-radius: 10px;margin-top: 0;"> </p></center>
     <center>
         <div style="background: #fff;width:90vw;margin:5vw;padding-top:2vw;margin-top:0;">
             <a href="events.html">
@@ -198,24 +197,4 @@
         $(".se-pre-con").fadeOut("slow");;
     });
 </script>
-<script>
-    var deadline = new Date("Oct 18, 2019 09:00:00").getTime();
-    var x = setInterval(function () {
-        var now = new Date().getTime();
-        var t = deadline - now;
-        var days = Math.floor(t / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((t % (1000 * 60)) / 1000);
-        document.getElementById("demo").innerHTML ="Are you excited? <br>"+ days + "d "
-            + hours + "h " + minutes + "m " + seconds + "s left";
-        if (t < 0) {
-            clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-    }, 1000);
-
-</script>
-
-
 </html>
