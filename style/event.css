@@ -46,7 +46,7 @@ h3{
 }
 @media screen and (max-width: 420px){
     .reg-form{
-        width: 100vw;
+        width: 90vw;
         margin-left: auto;
         margin-right: auto;
     }
