@@ -1,11 +1,10 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <title>MBA Events List</title>
-    <link rel="shortcut icon" href="./images/icon.png">
+    <title>TechVidya-2k19</title>
     <link href="./style/style.css" rel="stylesheet">
     <link href="./style/event.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -18,51 +17,34 @@
 
 <body>
     <div class="navbar">
-        <a class="logo" href="./index.html"><img class="icon" src="./images/logo.png"> Techvidya-2k19</a>
+        <a class="logo" href="#"><img class="icon" src="./images/icon.png"> TechVidya-2k19</a>
         <a class="x" onclick="menuclose()"><img class="menu-close"
                 src="https://img.icons8.com/ios-filled/50/000000/x.png"></a>
         <div class="respmenu">
-            <a class="op1" href="./index.html">Home</a>
-            <a class="op2" href="./events.html">Events</a>
-            <a class="op4" href="./explore.html">Explore</a>
-            <a class="op3" href="./contactus.html">Contact us</a>
+            <a class="op1" href="index.html">Home</a>
+            <a class="op2" href="events.html">Events</a>
+            <a class="op4" href="explore.html">Explore</a>
+            <a class="op3" href="contactus.html">Contact us</a>
         </div>
         <a class="menu" onclick="menuopen()"><img class="menu-icon"
                 src="https://img.icons8.com/ios-filled/50/000000/menu.png"></a>
     </div>
-    <div class="main-cont" style="margin-top: 11vw;"><br></div>
-    
-    <div class="CSE" style="background-color: #fff !important;width: 90vw; margin-top:0;margin-left: 5vw;margin-right: 5vw;">
+    <div style="background-color: #fff;width: 90vw;margin-left: 5vw;margin-right: 5vw;margin-top: 17vw;">
+
+    <div class="event">
+        <a href="tek-q.html">
             <center>
-                    <h1 style="text-transform: uppercase">MBA Event List</h1>
-                </center>    
-        <div class="event" style="background-color: #fff !important;width: 90vw; margin-left: 0;">
-                <a href="bestmanager.html">
-                    <center>
-                        <h2>BEST MANAGER</h2>
-                    </center>
-                    <center><img class="poster" src="./images/Managers.jpg"></center>
-                </a>
-            </div>
-            <div class="event" style="background-color: #fff !important;width: 90vw; margin-left: 0;">
-                <a href="businessquiz.html">
-                    <center>
-                        <h2>BUSINESS QUIZ</h2>
-                    </center>
-                    <center><img class="poster" src="./images/bq.jpg"></center>
-                </a>
-            </div>
-            <div class="event" style="background-color: #fff !important;width: 90vw; margin-left: 0;">
-                <a href="spotads.html">
-                    <center>
-                        <h2>SPOT Ads</h2>
-                    </center>
-                    <center><img class="poster" src="./images/ads.jpg"></center>
-                </a>
-            </div>
-        </div>
-        <br>
-    <footer>
+                <h5>TEK-Q</h5>
+            </center>
+            <center><img class="poster" src="./images/tq.jpg"></center>
+        </a>
+    </div>
+    <center><button class="reg" onclick="register()">Register</button></center>
+    <iframe class="reg-form"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSezJrWOPg3d956rYxgPSfix5HmyQSHYO2s6Lb5NQzMXOcyRvg/viewform?embedded=true"
+        width="640" height="1256" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+   </div><br>
+        <footer>
         <center>
             <a href="https://saividya.ac.in">
                 <h5 style="font-size:3vw;margin-top:1vw;margin-bottom:1vw;">Sai Vidya Institute Of Technology</h5>
@@ -82,6 +64,10 @@
             <a href="https://www.youtube.com/channel/UCWL2olPwqAo6QUzcpiKwdZA"><img class="sicon"
                     src="https://img.icons8.com/ios-glyphs/50/000000/youtube.png"></a>
         </center>
+        <div>
+            <center><a href="https://play.google.com/store/apps/details?id=com.bgvinayak.techvidya2k19"><img class="app"
+                        src="./images/goplay.png"></a></center>
+        </div>
     </footer>
     <script src="./script/script.js"></script>
 </body>

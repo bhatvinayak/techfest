@@ -24,25 +24,54 @@ function opencse(){
     document.querySelector(".cse").style="display: initial;background-color: #fff !important;width: 90vw;"
     document.querySelector(".mec").style="display: none;"
     document.querySelector(".ece").style="display: none;"
+    document.querySelector(".mba").style="display: none;"
+    document.querySelector(".eee").style="display: none;"
+
 }
 function openece(){
     document.querySelector(".cse").style="display: none;"
     document.querySelector(".ece").style="display: initial;"
     document.querySelector(".civ").style="display: none;"
     document.querySelector(".mec").style="display: none;"
+    document.querySelector(".mba").style="display: none;"
+    document.querySelector(".eee").style="display: none;"
+
 }
 function openciv(){
     document.querySelector(".cse").style="display: none;"
     document.querySelector(".ece").style="display: none;"
     document.querySelector(".civ").style="display: initial;"
     document.querySelector(".mec").style="display: none;"
+    document.querySelector(".mba").style="display: none;"
+    document.querySelector(".eee").style="display: none;"
+
 }
 function openmec(){
     document.querySelector(".cse").style="display: none;"
     document.querySelector(".civ").style="display: none;"
     document.querySelector(".ece").style="display: none;"
     document.querySelector(".mec").style="display: initial;"
+    document.querySelector(".mba").style="display: none;"
+    document.querySelector(".eee").style="display: none;"
 
+
+
+}
+function openeee(){
+    document.querySelector(".cse").style="display: none;"
+    document.querySelector(".civ").style="display: none;"
+    document.querySelector(".ece").style="display: none;"
+    document.querySelector(".mec").style="display: none;"
+    document.querySelector(".eee").style="display: initial;"
+    document.querySelector(".mba").style="display: none;"
+}
+function openmba(){
+    document.querySelector(".cse").style="display: none;"
+    document.querySelector(".civ").style="display: none;"
+    document.querySelector(".ece").style="display: none;"
+    document.querySelector(".mec").style="display: none;"
+    document.querySelector(".eee").style="display: none;"
+    document.querySelector(".mba").style="display: initial;"
 }
 function register()
 {
