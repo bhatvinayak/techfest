@@ -30,6 +30,7 @@
 
     .dept {
         margin: 0;
+        height: auto !important;
     }
 
     .dept-list,
@@ -71,25 +72,26 @@
             margin-left: 2vw;
         }
     }
-    div>.dept-list>a{
+
+    div>.dept-list>a {
         width: 20vw;
         margin-left: 5vw;
         margin-right: 5vw;
-        padding:2vw;
+        padding: 2vw;
         padding-left: 2vw;
-        background-color:#e49c30	 !important; 
-        margin-top: 3vw;
-        margin-bottom: 3vw;
-        height: 6vw;font-weight: bolder;
+        background-color: #e49c30 !important;
+        height: 6vw;
+        font-weight: bolder;
         color: white;
         text-align: center;
+        border-radius: 10px;
+        padding: 0;
 
-    }    
-    </style>
+    }
+</style>
 
 <body>
-    <div class="se-pre-con"></div>
-    <div class="navbar">
+    <div class="navbar" style="z-index: 1;">
         <div class="nav-head">
             <a class="logo" href="index.html"><img class="icon" src="./images/icon.png"> Techvidya-2k19</a>
             <a class="x" onclick="menuclose()"><img class="menu-close" style="margin: 2vw !important;"
@@ -111,9 +113,24 @@
                 src="https://img.icons8.com/ios-filled/50/000000/menu.png"></a>
     </div>
     <div class="main-cont"><br></div>
-        <a href="explore.html"> <img class="poster-main" style="margin-top: 0vw;" src="./images/poster2k19.jpeg"></a>
-        <video width="90%" height="40%" style="margin-top: 0vw;margin-left: 5vw;margin-bottom: 5vw;" controls muted>
-            <source src="./images/intro.mp4" type="video/mp4">Loading.. the fun</video>
+    <a href="explore.html"> <img class="poster-main" style="margin-top: 0vw;" src="./images/poster2k19.jpeg"></a>
+    <video width="90%" height="40%" style="margin-top: 0vw;margin-left: 5vw;margin-bottom: 5vw;" controls muted>
+        <source src="./images/intro.mp4" type="video/mp4">Loading.. the fun</video>
+    <div class="dept" style="background: #fff;height: 40vw;width:90vw;margin:5vw;padding-top: 1vw;padding-bottom: 2vw;margin-top: 0;">
+        <center>
+            <h3 style="font-size: 3vw;text-transform: uppercase;">Department Event List</h3>
+        </center>
+        <div class="dept-list" style="width:90vw;">
+            <a href="cse.html">CSE/ISE</a>
+            <a href="ece.html">ECE</a>
+            <a href="eee.html">EEE</a>
+        </div>
+        <div class="dept-list">
+            <a href="civil.html">CIVIL</a>
+            <a href="mech.html">MECH</a>
+            <a href="mba.html">MBA</a>
+        </div>
+    </div>
     <center>
         <div style="background: #fff;width:90vw;margin:5vw;padding-top:2vw;margin-top:0;">
             <a href="events.html">
@@ -136,25 +153,12 @@
         </div>
     </center>
 
-    <div class="dept" style="background: #fff;height: 40vw;width:90vw;margin:5vw;padding-top: 1vw;padding-bottom: 2vw;">
-        <center>
-            <h3 style="font-size: 3vw;text-transform: uppercase;">Department Event List</h3>
-        </center>
-        <div class="dept-list" style="width:90vw;">
-            <a href="cse.html" >CSE/ISE</a>
-            <a href="ece.html">ECE</a>
-            <a href="eee.html">EEE</a>
-        </div>
-        <div class="dept-list">
-            <a href="civil.html">CIVIL</a>
-            <a href="mech.html">MECH</a>
-            <a href="mba.html">MBA</a>
-        </div>
-    </div>
+
     <footer>
         <center>
             <a href="https://saividya.ac.in">
-                <h5 style="text-transform: uppercase; font-size:3vw;margin-top:1vw;margin-bottom:1vw;">Sai Vidya Institute Of Technology</h5>
+                <h5 style="text-transform: uppercase; font-size:3vw;margin-top:1vw;margin-bottom:1vw;">Sai Vidya
+                    Institute Of Technology</h5>
             </a>
             <h6 style="font-size:2vw;margin-top:1vw;margin-bottom:1vw;">Rajanukunte,Doddaballapur Road,Bangalore-560064
             </h6>
@@ -180,10 +184,15 @@
                 <p style="margin-top:1vw;margin-bottom:1vw;font-weight: bold;font-size: 2vw;">&copy;2019 SVIT</p>
             </center>
         </div>
-       <center> <a href='https://www.symptoma.es/'>symptom checker español</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=fb007f1c9b1fc3c68b40ecbeea186f6ea8ad3bf1'></script>
-        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/582495/t/5"></script></center>
-        
+        <center> <a href='https://www.symptoma.es/'>symptom checker español</a>
+            <script type='text/javascript'
+                src='https://www.freevisitorcounters.com/auth.php?id=fb007f1c9b1fc3c68b40ecbeea186f6ea8ad3bf1'></script>
+            <script type="text/javascript"
+                src="https://www.freevisitorcounters.com/en/home/counter/582495/t/5"></script>
+        </center>
+
     </footer>
     <script src="./script/script.js"></script>
 </body>
+
 </html>
